@@ -12,5 +12,10 @@
       {{ content | safe }}
       {% include 'footer.njk' %}
     </main>
+// script.js
+
+document.getElementById('toggle-dark-mode').addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});
   </body>
 </html>
