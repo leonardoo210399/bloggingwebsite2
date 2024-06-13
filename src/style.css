@@ -388,7 +388,87 @@ section,
 
 
 /* Dark mode styles */
-body.dark-mode {
-  background-color: black;
-  color: white;
+.dark-mode * {
+    background-color: #121212;
+    color: #e0e0e0;
 }
+
+.dark-mode body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode header {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode nav {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode nav a {
+    color: #bb86fc;
+}
+
+.dark-mode .container {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode .post {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode .post-title {
+    color: #bb86fc;
+}
+
+.dark-mode .post-content {
+    color: #e0e0e0;
+}
+
+.dark-mode footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+.dark-mode input[type="text"],
+.dark-mode textarea {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.dark-mode .form-group {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode h1, h2, h3, h4, h5, h6 {
+    color: #bb86fc;
+}
+To apply dark mode, simply add the dark-mode class to the body element:
+
+html
+Copy code
+<body class="dark-mode">
+  <!-- content -->
+</body>
+
+
+
+
+
+
+
+
+
+Ch
